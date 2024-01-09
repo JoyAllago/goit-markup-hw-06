@@ -772,9 +772,10 @@ li{
     color: #ffffff;
 }
 
-.form-container.list{
+.form-container.footer-form{
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 .footer-form-input{
@@ -797,14 +798,18 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "ROboto",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+}
+
+.footer-form-svgsubribe{
+    margin-left: 16px;
 }
