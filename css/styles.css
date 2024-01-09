@@ -772,10 +772,14 @@ li{
     color: #ffffff;
 }
 
+.form-container.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
 .footer-form{
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    flex-direction: row;
 }
 
 .footer-form-input{
