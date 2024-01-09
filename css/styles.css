@@ -100,6 +100,36 @@ body{
     width: 1158px;
 }
 
+.headercon {
+    flex-direction: row;
+}
+.header-list {
+    flex-direction: row;
+    align-items: center;
+}
+.first-section {
+    margin: 0 auto;
+}
+.second-section > .container {
+    flex-direction: column;
+}
+.list-items {
+    flex-direction: column;
+}
+.third-headers {
+    width: 100%;
+}
+.fourth-section-header {
+    width: 100%;
+}
+.customers-header {
+    width: 100%;
+    text-align: center;
+}
+.customers > .container {
+    align-items: center;
+}
+
 .header-list{
     list-style: none;
     gap: 40px;
