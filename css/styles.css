@@ -772,6 +772,7 @@ li{
     color: #ffffff;
 }
 
-.footer-form{
+.form-container.list{
     display: flex;
+    flex-direction: row;
 }
