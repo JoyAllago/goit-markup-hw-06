@@ -772,7 +772,7 @@ li{
     color: #ffffff;
 }
 
-.form-container.footer-form{
+.footer-form{
     display: flex;
     flex-direction: column;
     gap: 24px;
