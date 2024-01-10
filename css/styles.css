@@ -773,9 +773,10 @@ li{
     color: #ffffff;
 }
 
-.form-container.footer-form{
-    display: flex;
+
+.form-container-list{
     gap: 24px;
+    display: flex;
 }
 
 .footer-form-input{
