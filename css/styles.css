@@ -860,7 +860,15 @@ li{
     margin-bottom: 4px;
 }
 
-.form-label{
+.form-label-text{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--lightslate);
+    flex-shrink: 0;
+}
+
+.input-icon{
     position: relative;
 }
 
@@ -874,11 +882,11 @@ li{
     margin-bottom: 34px;
 }
 
-
-.form-label-text{
+.form-label-textarea{
+    position: relative;
+    margin-bottom: 16px;
     font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+    line-height: 1.166;
+    letter-spacing: 0.01em;
     color: var(--lightslate);
-    flex-shrink: 0;
 }
