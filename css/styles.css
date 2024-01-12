@@ -851,25 +851,6 @@ li{
     margin-bottom: 8px;
 }
 
-.checkbox:checked + .form-agree-box > .check-mark {
-    border: none;
-    background-color: var(--ocean);
-    fill: var(--cloud);
-  }
-  .checkbox {
-    border: none;
-    background-color: var(--ocean);
-  }
-
-.input-icon{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-
 .form-label-text{
     position: absolute;
     font-size: 12px;
@@ -893,16 +874,16 @@ li{
     color: var(--lightslate);
 }
 
-.form-input-icon {
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    left: 16px;
-    width: 18px;
-    height: 24px;
-    fill: var(--navyblue);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.form-agree-box {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--lightslate);
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    width: 360px;
+    height: 16px;
+    gap: 8px;
+    margin-bottom: 4px;
   }
-  .form-input:hover + .form-input-icon,
-  .form-input:focus + .form-input-icon {
-    fill: var(--iris);
