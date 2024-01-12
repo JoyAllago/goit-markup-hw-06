@@ -1001,7 +1001,7 @@ li{
 
 /* portfolio hw6 */
 
-.footer-socials-text-add{
+.footer-form_label{
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -1009,4 +1009,6 @@ li{
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+
+
 
