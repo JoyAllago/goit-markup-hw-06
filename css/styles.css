@@ -848,7 +848,8 @@ li{
 }
 
 .positioning{
-    margin-bottom: 8px;
+    margin-bottom: 8px 
+
 }
 
 .form-label-text{
@@ -951,7 +952,7 @@ li{
     fill: var(--cloud);
 }
 
-.positioning{
+.commitment{
     margin-bottom: 16px;
 }
 
