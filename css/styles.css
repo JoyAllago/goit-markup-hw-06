@@ -1010,5 +1010,7 @@ li{
     color: #ffffff;
 }
 
-
+.footer-form-input-class{
+    display: flex;
+}
 
