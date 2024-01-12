@@ -888,6 +888,10 @@ li{
     margin-bottom: 4px;
   }
 
+.form-agree-box-link{
+    color: #4d5ae5;
+}
+
 .form-input{
     width: 100%;
     height: 40px;
@@ -979,7 +983,7 @@ li{
     display: block;
     min-width: 169px;
     height: 56px;
-    font-family: "Robot",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
