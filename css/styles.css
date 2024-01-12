@@ -197,48 +197,59 @@ body{
 /* Section 1 */
 
 .first-section{
-    background-color: var(--navy-blue);
+    margin: auto;
+    background-color: var(--navyblue);
+    height: 600px;
+    flex-shrink: 0;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)), url(./images/img17.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url(../images/dark-hero-bg.png), url(../images/img17.jpg),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 1440px, 1440px;
 }
 
-
 .section-title{
-   font-size: 56px;
-   line-height: 1.07;
-   text-align: center;
-   letter-spacing: 0.02em;
-   color: #ffffff;
-   max-width: 496px;
-   margin: 0 auto 48px;
+    text-align: center;
+    margin: auto;
+    max-width: 496px;
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+}
+
+.hero-container{
+    text-align: center;
 }
 
 .button{
-    background-color: #4D5AE5;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  margin: auto;
+  padding: 16px 32px;
+  display: block;
+  height: 56px;
+  border: none;
+  min-width: 169px;
+  background: var(--iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .button:hover,
 .button:focus{
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
  /* portfolio page button */
@@ -513,6 +524,11 @@ body{
     padding: 0 15px;
 }
 
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
 li{
    list-style: none;
    display: flex;
@@ -720,17 +736,16 @@ li{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%);
     width: 408px;
-    min-height: 584px;
+    /* min-height: 584px; */
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
 
-.modal-button-close{
+.modal-button-circle{
     position: absolute;
     top: 24px;
     right: 24px;
@@ -744,17 +759,24 @@ li{
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color, border-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button-close:hover,
 .modal-button-close:focus{
-    background-color: #404bbf;
-    border: none;
+    color: var(--white);
+    background-color: var(--ocean);
 }
 
-.modal-button-close-svg{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-close-icon{
+    width: 8px;
+    height: 8px;
+    fill: currentColor;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button-close:hover,
@@ -838,7 +860,16 @@ li{
     margin-bottom: 4px;
 }
 
-.form-label-text{
+.form-label{
     position: relative;
-    
+}
+
+.footer-form{
+    /* padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px; */
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 34px;
 }
