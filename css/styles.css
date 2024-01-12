@@ -900,6 +900,13 @@ li{
     border-color: #4d5ae5;
 }
 
+.form-input:focus,
+.form-input:hover,
+.form-textarea:focus,
+.form-textarea:hover {
+  border-color: var(--iris);
+}
+
 .form-input-icon{
     position: absolute;
     left: 16px;
@@ -911,3 +918,4 @@ li{
 .form-input:hover + .form-input-icon,
 .form-input:focus + .form-input-icon {
   fill: var(--iris);
+}
