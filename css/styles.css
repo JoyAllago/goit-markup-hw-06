@@ -851,7 +851,7 @@ li{
     margin-bottom: 8px;
 }
 
-.form-agreement-box{
+.input-icon{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -866,6 +866,8 @@ li{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--lightslate);
+    display: block;
+    margin-bottom: 4px;
 }
 
 .input-icon{
